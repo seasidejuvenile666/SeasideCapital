@@ -1,0 +1,41 @@
+---
+slug: maverick-recap
+title: 如何寻找盈亏比高达15倍的交互项目——maverick(小牛)空投复盘
+authors: seaside
+tags: [airdrop,maverick]
+---
+
+
+## 发现项目
+
+一开始我是从kol和群友那里获得的消息源，拿到项目后我第一步先去查融资背景，当时4月份小牛公布的融资只有去年2月份的800万美元，对于一个defi类项目来说还行，因此我开始关注小牛，看看有没有一鱼多吃的机会
+
+![小牛融资](/img/blog/maverick-recap/1.jpg)
+
+[融资背景链接](https://www.rootdata.com/zh/Projects/detail/Maverick%20Protocol?k=MjkwMA%3D%3D)
+
+## 研究交互机会
+
+小牛之前发布过一些任务，做完有nft，就是牛1到牛3，但已经结束了，四月份他发布了zks上的银河任务，做完任务有牛4 nft
+
+![银河任务](/img/blog/maverick-recap/2.png)
+
+![银河任务](/img/blog/maverick-recap/3.png)
+
+## 分析潜在收益
+
+我当时觉得就算他最后不发空投，它的nft也会承载他发空投的预期，nft肯定能炒作，特别是如果他能宣布新一轮的融资，所以我是每个号都拉满了，还有每个号的投票我也投了
+
+然后就是6-21号晚上又公布了新一轮900w美元的融资，知名机构包含了binance labs还有coinbase venture，那天晚上牛4是炒到了10u一个(这也印证了我之前的想法)
+
+![时间线](/img/blog/maverick-recap/4.png)
+
+## 复盘盈亏比
+
+最后就是22号快照，28号发空投，一个牛4有60个币，snapshot投一次票有30个币，也就是说如果你是4月份才开始刷这个项目的话，一个号有牛4并且投了一次票，就算没有牛1-牛3，没做lp，单号也有90个币45U的收益，而成本就是3U的gas而已，盈亏比15倍，而如果你还做了牛1-牛3和lp，那收益更多
+
+![收益](/img/blog/maverick-recap/5.png)
+
+我自己刷zks的号从他上主网以来钱越亏越多，越亏越多，加上之前zksync上主网以来的各种土狗空投（如下图），到小牛发空投后我每个号的钱都可以分裂出一个新号出来继续刷
+
+![收益](/img/blog/maverick-recap/6.jpg)

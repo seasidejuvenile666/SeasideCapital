@@ -1,0 +1,8 @@
+{
+  "label": "空投",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "空投的底层逻辑及方法."
+  }
+}
