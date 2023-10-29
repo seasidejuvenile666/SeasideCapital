@@ -1,11 +1,11 @@
 ---
-slug: 近期值得关注的小项目
-title: 近期值得关注的几个小项目
+slug: 3个名牌空投项目
+title: 3个名牌空投项目
 authors: seaside
 tags: [airdrop, 交互]
 ---
 
-## GRVT
+## 1.GRVT
 
 注册链接：https://grvt.io/exchange/sign-up?ref=0R2DIJC
 
@@ -25,7 +25,7 @@ tags: [airdrop, 交互]
 
 GRVT积分系统将在第一阶段推出，详细信息将于12月前公布
 
-## aevo
+## 2.aevo
 
 1. 前身是Ribbon Finance，B轮融了875W，Paradigm\Dragonfly\Coinbase Ventures投资
 
@@ -69,7 +69,7 @@ GRVT积分系统将在第一阶段推出，详细信息将于12月前公布
 
 ![aevo](/img/blog/2023-10-29/6.jpg)
 
-## brine finance
+## 3.brine finance
 
 1. 今年9月份融了1650w
 
