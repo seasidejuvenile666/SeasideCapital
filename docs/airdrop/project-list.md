@@ -130,6 +130,13 @@ export const defidata = [
     twitterLink: "https://twitter.com/ElixirProtocol",
     tutorialLink: "",
   },
+  {
+    projectName: "brine finance",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Brine%20Finance?k=NzQ0Ng%3D%3D",
+    financingBackground: "2023-09-07 1650w",
+    twitterLink: "https://twitter.com/brinefinance",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={defidata} />
@@ -154,7 +161,7 @@ export const onchainPerpetualData = [
   {
     projectName: "aevo",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Aevo?k=MzAwOQ%3D%3D",
-    financingBackground: "paradigm投资",
+    financingBackground: "2022-03-22 B轮875w\nparadigm/dragonfly/coinbase投资",
     twitterLink: "https://twitter.com/aevoxyz",
     tutorialLink: "",
   },
@@ -322,7 +329,7 @@ export const privacyData = [
   {
     projectName: "Nocturne",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Nocturne?k=ODY2NQ%3D%3D",
-    financingBackground: "hack vc投了未宣布",
+    financingBackground: "2023-10-25 种子轮600w，V神参投",
     twitterLink: "https://twitter.com/nocturne_xyz",
     tutorialLink: "",
   },
@@ -331,6 +338,13 @@ export const privacyData = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Renegade?k=Njk5NA%3D%3D",
     financingBackground: "2023-02-20 种子轮340万美元",
     twitterLink: "https://twitter.com/renegade_fi",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Tristero",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Tristero?k=NzkzMw%3D%3D",
+    financingBackground: "2023-05-02 种子轮480w",
+    twitterLink: "https://twitter.com/0xtristero",
     tutorialLink: "",
   },
 ];
