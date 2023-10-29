@@ -1,5 +1,5 @@
 ---
-slug: 3个名牌空投项目
+slug: three-airdrop
 title: 3个名牌空投项目
 authors: seaside
 tags: [airdrop, 交互]
