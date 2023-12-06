@@ -137,6 +137,13 @@ export const defidata = [
     twitterLink: "https://twitter.com/brinefinance",
     tutorialLink: "",
   },
+    {
+    projectName: "Flood",
+    financingLink: "",
+    financingBackground: "bain capital crypto/archetype/robot ventures投了",
+    twitterLink: "https://twitter.com/bidflood",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={defidata} />
@@ -198,6 +205,41 @@ export const onchainPerpetualData = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Perennial?k=NTg3OQ%3D%3D",
     financingBackground: "2022-12-7 种子轮1200w",
     twitterLink: "https://twitter.com/perenniallabs",
+    tutorialLink: "",
+  },
+  {
+    projectName: "SynFutures Protocol",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/SynFutures?k=MzAyMA%3D%3D",
+    financingBackground: "2021-01-08 种子轮140w\n2021-06-17 A轮1400w\n2023-10-19 B轮2200w",
+    twitterLink: "https://twitter.com/SynFuturesDefi",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Surf Protocol",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Surf%20Protocol?k=OTk0Mw%3D%3D",
+    financingBackground: "2023-10-30 300w",
+    twitterLink: "https://twitter.com/surf_protocol",
+    tutorialLink: "",
+  },
+  {
+    projectName: "rysk finance",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/rysk%20finance?k=NjM4Nw%3D%3D",
+    financingBackground: "2023-01-31 Pre种子轮140w",
+    twitterLink: "https://twitter.com/ryskfinance",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Vertex Protocol",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Vertex%20Protocol?k=NTAyNw%3D%3D",
+    financingBackground: "2022-04-26 种子轮850w\n2023-06-22 战略融资金额未披露",
+    twitterLink: "https://twitter.com/vertex_protocol",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Primex Finance",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Primex%20Finance?k=MzAzOQ%3D%3D",
+    financingBackground: "2022-02-06 种子轮570w",
+    twitterLink: "https://twitter.com/primex_official",
     tutorialLink: "",
   },
 ];
