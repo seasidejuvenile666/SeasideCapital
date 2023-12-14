@@ -43,7 +43,7 @@ from web3 import Web3, HTTPProvider, Account
 from web3.middleware import geth_poa_middleware
 
 private_key = "填写钱包私钥"
-recipient_address = "填写接受钱包地址"
+recipient_address = "填写接受钱包地址" #一般填自己的
 data = 'data:,{"p":"erc-20","op":"mint","tick":"eths","amt":"1000"}'
 rpc_map = {
     'mainnet': '填写rpc链接',
@@ -66,7 +66,7 @@ def get_transaction_eip1559(rpc_url, text_data, priority_fee):
     base_fee = web3.eth.get_block('latest')['baseFeePerGas']
 
     # Transaction details
-    max_priority_fee_per_gas = web3.to_wei(priority_fee, 'gwei')  # Tip for the miner, adjust as needed
+    max_priority_fee_per_gas = web3.to_wei(priority_fee, 'gwei')  
     max_fee_per_gas = base_fee + max_priority_fee_per_gas
     # EIP-1559 transaction parameters
 
@@ -135,7 +135,7 @@ from web3 import Web3, HTTPProvider, Account
 from web3.middleware import geth_poa_middleware
 
 private_key = "填写钱包私钥"
-recipient_address = "填写接受钱包地址"
+recipient_address = "填写接受钱包地址" #一般填自己的
 data = 'data:,{"p":"erc-20","op":"mint","tick":"eths","amt":"1000"}'
 rpc_map = {
     'mainnet': '填写rpc链接',
