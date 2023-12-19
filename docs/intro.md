@@ -7,7 +7,8 @@ sidebar_position: 1
 ## 交易大所[最高省55%手续费]
 
 - 币安：第一大所，大资金优先
-- OKX：前三大所，撸毛必备
+- OKX：第二大所，撸毛必备
+- [Bitget](https://partner.bitget.com/bg/P3HS0F)：上币快如抹茶，严如币安
 - 合约市场数据：[coinglass](https://www.coinglass.com/zh)
 
 ## defi
@@ -43,3 +44,5 @@ sidebar_position: 1
 [区块链的价值以及为什么还会有牛市](/docs/value-of-blockchain)
 
 [机构主要成员名单](/docs/institution)
+
+[铭文和撸毛，到底哪个才是暴富的高速路？](/docs/inscription-and-airdrop)
