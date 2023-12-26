@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import { Table } from 'antd';
-import checkWallets from './tool/api'; // 请替换成你实际的 api.js 文件路径
+import checkWallets from './tool/api'; 
 
 const columns = [
   {
@@ -9,20 +9,20 @@ const columns = [
     dataIndex: 'address',
     key: 'address',
     render: (text) => <a>{text}</a>,
-    width: '37.5vw', // 设置地址列宽度为表格的一半
+    width: '37.5vw', 
   },
   {
     title: '$STRKR积分',
     dataIndex: 'number',
     key: 'number',
-    width: '37.5vw', // 设置$STRKR积分列宽度为表格的一半
+    width: '37.5vw',
   },
 ];
 
 export default function BatchQuery() {
   const [addresses, setAddresses] = useState('');
   const [results, setResults] = useState([]);
-  const [data, setData] = useState([]); // 新增一个状态用于存储表格数据
+  const [data, setData] = useState([]); 
   const [loading, setLoading] = useState(false);
   const MAX_ADDRESSES = 100;
 
@@ -34,7 +34,7 @@ export default function BatchQuery() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true); // 开始请求时设置 loading 为 true
+    setLoading(true); 
 
     const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
     const queryResults = await checkWallets(addressesArray);
@@ -46,9 +46,9 @@ export default function BatchQuery() {
       number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
     }));
 
-    setData(newData); // 设置更新后的data
+    setData(newData); 
 
-    setLoading(false); // 请求完成后设置 loading 为 false
+    setLoading(false); 
   };
 
   const calculateTotalPoints = () => {
@@ -80,7 +80,7 @@ export default function BatchQuery() {
           style={{
             width: '75vw',
             height: '200px',
-            resize: 'vertical', // 允许垂直拖动调整高度
+            resize: 'vertical', 
             margin: '10px',
           }}
         />
