@@ -47,7 +47,6 @@ export default function BatchQuery() {
     }));
 
     setData(newData); 
-
     setLoading(false); 
   };
 
