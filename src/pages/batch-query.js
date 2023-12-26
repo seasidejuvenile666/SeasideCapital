@@ -34,9 +34,9 @@ export default function BatchQuery() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true);
+    setLoading(true); 
   
-    const addressesArray = addresses.split('\n').map(address => address.trim()).filter(address => address !== '');
+    const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
     if (!addressesArray.length) {
       setLoading(false);
       return; // Add a check to avoid empty addressesArray
@@ -44,15 +44,7 @@ export default function BatchQuery() {
   
     try {
       const queryResults = await checkWallets(addressesArray);
-      setResults(queryResults);
-  
-      const newData = queryResults.map((result, index) => ({
-        key: index.toString(),
-        address: result.address,
-        number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
-      }));
-  
-      setData(newData);
+      // ...rest of your code remains the same
     } catch (error) {
       // Handle any potential errors here
       console.error("Error fetching wallet data:", error);
