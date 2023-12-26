@@ -27,40 +27,40 @@ export default function BatchQuery() {
   const MAX_ADDRESSES = 100;
 
 
-//   const handleInputChange = (event) => {
-//     const inputValue = event.target.value;
-//     const formattedAddresses = inputValue.split('\n').slice(0, MAX_ADDRESSES).join('\n');
-//     setAddresses(formattedAddresses);
-//   };
+  const handleInputChange = (event) => {
+    const inputValue = event.target.value;
+    const formattedAddresses = inputValue.split('\n').slice(0, MAX_ADDRESSES).join('\n');
+    setAddresses(formattedAddresses);
+  };
 
-//   const handleSubmit = async () => {
-//     setLoading(true); 
+  const handleSubmit = async () => {
+    setLoading(true); 
 
-//     const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
-//     if (!addressesArray.length) {
-//       setLoading(false);
-//       return; // Add a check to avoid empty addressesArray
-//     }
+    const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
+    if (!addressesArray.length) {
+      setLoading(false);
+      return; // Add a check to avoid empty addressesArray
+    }
 
-//   try {
-//     const queryResults = await checkWallets(addressesArray);
-//     setResults(queryResults);
+  try {
+    const queryResults = await checkWallets(addressesArray);
+    setResults(queryResults);
 
-//     const newData = queryResults.map((result, index) => ({
-//       key: index.toString(),
-//       address: result.address,
-//       number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
-//     }));
+    const newData = queryResults.map((result, index) => ({
+      key: index.toString(),
+      address: result.address,
+      number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
+    }));
 
-//     setData(newData); 
-//     setLoading(false); 
-//   } catch (error) {
-//     // Handle any potential errors here
-//     console.error("Error fetching wallet data:", error);
-//   } finally {
-//     setLoading(false);
-//   }
-// };
+    setData(newData); 
+    setLoading(false); 
+  } catch (error) {
+    // Handle any potential errors here
+    console.error("Error fetching wallet data:", error);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const calculateTotalPoints = () => {
     let totalPoints = 0;
