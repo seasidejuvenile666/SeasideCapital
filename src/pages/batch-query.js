@@ -84,7 +84,7 @@ export default function BatchQuery() {
           padding: '20px',
         }}>
         <h1>$STRKR积分批量查询</h1>
-        <textarea
+        {/* <textarea
           placeholder="请输入地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
@@ -109,7 +109,7 @@ export default function BatchQuery() {
         <div>{totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：参见官网</div>
         <div style={{ width: '75vw', height: '200px', margin: '10px' }}>
           <Table columns={columns} dataSource={data} pagination={false} loading={loading}/>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
