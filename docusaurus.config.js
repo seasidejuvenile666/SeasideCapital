@@ -77,6 +77,7 @@ const config = {
             label: 'Article',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/batch-query', label: '空投查询', position: 'left'}, 
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
