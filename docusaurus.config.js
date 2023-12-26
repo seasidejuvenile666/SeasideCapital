@@ -77,7 +77,7 @@ const config = {
             label: 'Article',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/airdrop-query', label: 'airdrop query', position: 'left'}, 
+          {to: '/airdrop-query', label: 'Airdrop Query', position: 'left'}, 
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
