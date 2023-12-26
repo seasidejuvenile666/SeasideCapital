@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import { Table } from 'antd';
-import checkWallets from '../utils/api'; 
+import checkWallets from '../utils/api';
 
 const columns = [
   {
@@ -9,7 +9,7 @@ const columns = [
     dataIndex: 'address',
     key: 'address',
     render: (text) => <a>{text}</a>,
-    width: '37.5vw', 
+    width: '37.5vw',
   },
   {
     title: '$STRKR积分',
@@ -22,7 +22,7 @@ const columns = [
 export default function BatchQuery() {
   const [addresses, setAddresses] = useState('');
   const [results, setResults] = useState([]);
-  const [data, setData] = useState([]); 
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const MAX_ADDRESSES = 100;
 
@@ -34,33 +34,32 @@ export default function BatchQuery() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true); 
+    setLoading(true);
 
     const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
     if (!addressesArray.length) {
       setLoading(false);
-      return; // Add a check to avoid empty addressesArray
+      return; 
     }
 
-  try {
-    const queryResults = await checkWallets(addressesArray);
-    setResults(queryResults);
+    try {
+      const queryResults = await checkWallets(addressesArray);
+      setResults(queryResults);
 
-    const newData = queryResults.map((result, index) => ({
-      key: index.toString(),
-      address: result.address,
-      number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
-    }));
+      const newData = queryResults.map((result, index) => ({
+        key: index.toString(),
+        address: result.address,
+        number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
+      }));
 
-    setData(newData); 
-    setLoading(false); 
-  } catch (error) {
-    // Handle any potential errors here
-    console.error("Error fetching wallet data:", error);
-  } finally {
-    setLoading(false);
-  }
-};
+      setData(newData);
+      setLoading(false);
+    } catch (error) {
+      console.error("Error fetching wallet data:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const calculateTotalPoints = () => {
     let totalPoints = 0;
@@ -90,9 +89,10 @@ export default function BatchQuery() {
           onChange={handleInputChange}
           style={{
             width: '75vw',
-            height: '200px',
-            resize: 'vertical', 
+            height: '100px',
+            resize: 'vertical',
             margin: '10px',
+            fontSize: '18px',
           }}
         />
         <button
@@ -102,13 +102,21 @@ export default function BatchQuery() {
             height: '50px',
             borderRadius: '5px',
             margin: '10px',
+            fontSize: '18px',
           }}
         >
           提交
         </button>
-        <div>{totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：参见官网</div>
-        <div style={{ width: '75vw', height: '200px', margin: '10px' }}>
-          <Table columns={columns} dataSource={data} pagination={false} loading={loading}/>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
+          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：参见官网
+        </div>
+        <div style={{ width: '75vw', margin: '10px' }}>
+          <Table
+            columns={columns}
+            dataSource={data}
+            pagination={false}
+            loading={loading}
+          />
         </div>
       </div>
     </Layout>
