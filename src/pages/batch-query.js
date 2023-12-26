@@ -34,9 +34,9 @@ export default function BatchQuery() {
   };
 
   const handleSubmit = async () => {
-    setLoading(true); 
+    setLoading(true);
 
-    const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
+    const addressesArray = addresses.split('\n').map(address => address.trim()).filter(address => address !== '');
     const queryResults = await checkWallets(addressesArray);
     setResults(queryResults);
 
