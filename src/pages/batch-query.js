@@ -35,19 +35,30 @@ export default function BatchQuery() {
 
   const handleSubmit = async () => {
     setLoading(true);
-
+  
     const addressesArray = addresses.split('\n').map(address => address.trim()).filter(address => address !== '');
-    const queryResults = await checkWallets(addressesArray);
-    setResults(queryResults);
-
-    const newData = queryResults.map((result, index) => ({
-      key: index.toString(),
-      address: result.address,
-      number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
-    }));
-
-    setData(newData); 
-    setLoading(false); 
+    if (!addressesArray.length) {
+      setLoading(false);
+      return; // Add a check to avoid empty addressesArray
+    }
+  
+    try {
+      const queryResults = await checkWallets(addressesArray);
+      setResults(queryResults);
+  
+      const newData = queryResults.map((result, index) => ({
+        key: index.toString(),
+        address: result.address,
+        number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
+      }));
+  
+      setData(newData);
+    } catch (error) {
+      // Handle any potential errors here
+      console.error("Error fetching wallet data:", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const calculateTotalPoints = () => {
