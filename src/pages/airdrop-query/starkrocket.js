@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import { Table } from 'antd';
-import checkWallets from '../utils/api';
+import checkWallets from '../../utils/api';
 
 const columns = [
   {

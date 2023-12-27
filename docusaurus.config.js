@@ -77,7 +77,14 @@ const config = {
             label: 'Article',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/airdrop-query', label: 'Airdrop Query', position: 'left'}, 
+          {
+            label: 'Airdrop Query',
+            position: 'left',
+            items: [
+              { to: '/airdrop-query/starkrocket', label: 'starkrocket' },
+              // Add more options as needed
+            ],
+          },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
