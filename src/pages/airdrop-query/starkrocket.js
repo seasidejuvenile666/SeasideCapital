@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
-import { Table } from 'antd';
+import { Table, Input, Button } from 'antd';
 import checkWallets from '../../utils/api';
+
+const { TextArea } = Input;
 
 const columns = [
   {
@@ -26,7 +28,6 @@ export default function BatchQuery() {
   const [loading, setLoading] = useState(false);
   const MAX_ADDRESSES = 100;
 
-
   const handleInputChange = (event) => {
     const inputValue = event.target.value;
     const formattedAddresses = inputValue.split('\n').slice(0, MAX_ADDRESSES).join('\n');
@@ -36,10 +37,10 @@ export default function BatchQuery() {
   const handleSubmit = async () => {
     setLoading(true);
 
-    const addressesArray = addresses.split('\n').filter(address => address.trim() !== '');
+    const addressesArray = addresses.split('\n').filter((address) => address.trim() !== '');
     if (!addressesArray.length) {
       setLoading(false);
-      return; 
+      return;
     }
 
     try {
@@ -53,9 +54,8 @@ export default function BatchQuery() {
       }));
 
       setData(newData);
-      setLoading(false);
     } catch (error) {
-      console.error("Error fetching wallet data:", error);
+      console.error('Error fetching wallet data:', error);
     } finally {
       setLoading(false);
     }
@@ -81,9 +81,10 @@ export default function BatchQuery() {
           flexDirection: 'column',
           alignItems: 'center',
           padding: '20px',
-        }}>
+        }}
+      >
         <h1>$STRKR积分批量查询</h1>
-        <textarea
+        <TextArea
           placeholder="请输入地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
@@ -95,7 +96,8 @@ export default function BatchQuery() {
             fontSize: '18px',
           }}
         />
-        <button
+        <Button
+          type="primary"
           onClick={handleSubmit}
           style={{
             width: '100px',
@@ -104,9 +106,10 @@ export default function BatchQuery() {
             margin: '10px',
             fontSize: '18px',
           }}
+          loading={loading}
         >
           提交
-        </button>
+        </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：参见官网
         </div>
