@@ -5,8 +5,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import logo from "@site/static/img/profile.jpg";
-
 import styles from './index.module.css';
+
+import { inject } from '@vercel/analytics';
+inject();
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
