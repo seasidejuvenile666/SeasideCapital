@@ -108,7 +108,7 @@ export default function BatchQuery() {
           }}
           loading={loading}
         >
-          提交
+          查询
         </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：参见官网
