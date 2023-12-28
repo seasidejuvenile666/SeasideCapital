@@ -39,8 +39,6 @@ sidebar_position: 1
 
 ## 其他
 
-[发财跟能力无关，全看命](/docs/fate)
-
 [区块链的价值以及为什么还会有牛市](/docs/value-of-blockchain)
 
 [机构主要成员名单](/docs/institution)
