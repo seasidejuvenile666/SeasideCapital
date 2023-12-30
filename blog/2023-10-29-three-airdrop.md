@@ -19,7 +19,7 @@ tags: [airdrop, 交互]
 
 1. 官网路线图明确发币
 
-![grvt](/img/blog/2023-10-29/1.png)
+![grvt](/img/blog/three-airdrop/1.png)
 
 2. 目前只有在第0阶段(2023-10到2023-12)才能邀请无限数量的推荐人，积分被转换为$GVRT代币
 
@@ -29,17 +29,17 @@ GRVT积分系统将在第一阶段推出，详细信息将于12月前公布
 
 1. 前身是Ribbon Finance，B轮融了875W，Paradigm\Dragonfly\Coinbase Ventures投资
 
-![aevo](/img/blog/2023-10-29/2.jpg)
+![aevo](/img/blog/three-airdrop/2.jpg)
 
 2. 项目方的代币经济学显示16%的代币用于空投
 
-![aevo](/img/blog/2023-10-29/3.png)
+![aevo](/img/blog/three-airdrop/3.png)
 
 链接：https://agp.aevo.xyz/agp-1-aevo-governance/3-tokenomics
 
 3. 官方明确发币
 
-![aevo](/img/blog/2023-10-29/4.png)
+![aevo](/img/blog/three-airdrop/4.png)
 
 链接：https://help.aevo.xyz/en/articles/7190737-does-aevo-have-a-token
 
@@ -47,7 +47,7 @@ GRVT积分系统将在第一阶段推出，详细信息将于12月前公布
 
 4. 根据Dune的信息，目前只有2k多人参与，不卷
 
-![aevo](/img/blog/2023-10-29/5.png)
+![aevo](/img/blog/three-airdrop/5.png)
 
 链接：https://dune.com/holmberg15a/aevo-metrics
 
@@ -67,13 +67,13 @@ GRVT积分系统将在第一阶段推出，详细信息将于12月前公布
 2. Aexplorers - 不少于500U
 3. Aempyreans - 不少于1500U
 
-![aevo](/img/blog/2023-10-29/6.jpg)
+![aevo](/img/blog/three-airdrop/6.jpg)
 
 ## 3.brine finance
 
 1. 今年9月份融了1650w
 
-![brine](/img/blog/2023-10-29/7.jpg)
+![brine](/img/blog/three-airdrop/7.jpg)
 
 2. 获得空投方法
 
