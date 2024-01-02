@@ -50,7 +50,7 @@ export default function BatchQuery() {
       const newData = queryResults.map((result, index) => ({
         key: index.toString(),
         address: result.address,
-        number: result.error ? `错误：${result.error}` : result.data.amount || 0, 
+        number: result.error ? 0 : (result.data.amount || 0), 
       }));
 
       setData(newData);
