@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 # 铭文和撸毛，到底哪个才是暴富的高速路？
