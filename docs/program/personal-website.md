@@ -46,7 +46,7 @@ sidebar_position: 1
 
 ![docusaurus](/img/docs/program/personal-website/5.png)
 
-运行完毕后就会在浏览器中跳出一个域名为`localhost:3000`的测试网页，可以看到我的网页题目成功被修改为`starknetSB`
+运行完毕后就会在浏览器中跳出一个ip地址为`localhost:3000`的测试网页，可以看到我的网页题目成功被修改为`starknetSB`
 
 ![docusaurus](/img/docs/program/personal-website/6.png)
 
