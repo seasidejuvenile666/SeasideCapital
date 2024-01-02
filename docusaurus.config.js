@@ -82,6 +82,7 @@ const config = {
             position: 'left',
             items: [
               { to: '/airdrop-query/starkrocket', label: 'starkrocket' },
+              { to: '/airdrop-query/dymension', label: 'dymension' },
               // Add more options as needed
             ],
           },

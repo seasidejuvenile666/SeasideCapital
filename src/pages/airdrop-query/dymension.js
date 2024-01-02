@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import { Table, Input, Button } from 'antd';
-import checkWallets from '../../utils/strkr-api';
+import checkWallets from '../../utils/dym-api';
 
 const { TextArea } = Input;
 
 const columns = [
   {
-    title: '地址',
+    title: 'Ethereum地址',
     dataIndex: 'address',
     key: 'address',
     render: (text) => <a>{text}</a>,
     width: '37.5vw',
   },
   {
-    title: '$STRKR积分',
+    title: '$dym',
     dataIndex: 'number',
     key: 'number',
     width: '37.5vw',
@@ -50,7 +50,7 @@ export default function BatchQuery() {
       const newData = queryResults.map((result, index) => ({
         key: index.toString(),
         address: result.address,
-        number: result.error ? `Error: ${result.error}` : result.data.result.points || 0,
+        number: result.error ? `错误：${result.error}` : result.data.amount || 0, 
       }));
 
       setData(newData);
@@ -64,8 +64,8 @@ export default function BatchQuery() {
   const calculateTotalPoints = () => {
     let totalPoints = 0;
     for (const result of results) {
-      if (!result.error && result.data.result.points) {
-        totalPoints += result.data.result.points;
+      if (!result.error && result.data && typeof result.data.amount === 'number') {
+        totalPoints += result.data.amount;
       }
     }
     return totalPoints;
@@ -83,9 +83,9 @@ export default function BatchQuery() {
           padding: '20px',
         }}
       >
-        <h1>$STRKR积分批量查询</h1>
+        <h1>$dym批量查询</h1>
         <TextArea
-          placeholder="请输入地址，以换行进行分隔，一次最多100个"
+          placeholder="请输入Ethereum地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
           style={{
@@ -111,7 +111,7 @@ export default function BatchQuery() {
           查询
         </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$dym为：{totalPoints}，Claim时间：参见官网
+          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$STRKR积分为：{totalPoints}，Claim时间：1月21日 20:00 (UTC+8)
         </div>
         <div style={{ width: '75vw', margin: '10px' }}>
           <Table
