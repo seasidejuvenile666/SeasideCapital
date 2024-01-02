@@ -2,7 +2,10 @@ async function checkWallets(addresses) {
     const results = [];
   
     for (const address of addresses) {
-      const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=${address}`;
+
+    const lowercaseAddress = address.slice(2).toLowerCase();
+
+    const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=0x${lowercaseAddress}`;
   
       try {
         const response = await fetch(apiUrl);
