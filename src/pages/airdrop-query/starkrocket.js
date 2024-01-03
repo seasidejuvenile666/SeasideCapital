@@ -117,7 +117,7 @@ export default function BatchQuery() {
           查询
         </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$strkr为：{totalPoints}
+          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$strkr积分为：{totalPoints}
         </div>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           Claim时间：参见官网
