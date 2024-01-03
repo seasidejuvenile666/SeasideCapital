@@ -84,10 +84,10 @@ export default function BatchQuery() {
         }}
       >
         <h1>$STRKR积分批量查询</h1>
-        <div style={{ fontSize: '18px' }}>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
           StarkRocket 官网: <a href='https://starkrocket.xyz/airdrop' target="_blank">https://starkrocket.xyz/airdrop</a>
         </div>
-        <div style={{ fontSize: '18px' }}>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
           请导入Starknet网络的地址进行查询，不是 EVM
         </div>
         <TextArea
@@ -116,10 +116,10 @@ export default function BatchQuery() {
         >
           查询
         </Button>
-        <div style={{ fontSize: '18px' }}>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
           {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$strkr为：{totalPoints}
         </div>
-        <div style={{ fontSize: '18px' }}>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
           Claim时间：参见官网
         </div>
         <div style={{ width: '75vw', margin: '10px' }}>
