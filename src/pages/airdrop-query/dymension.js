@@ -83,7 +83,7 @@ export default function BatchQuery() {
           padding: '20px',
         }}
       >
-        <h1>$dym批量查询</h1>
+        <h1>$dym全链地址批量查询</h1>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           官网: <a href='https://genesis.dymension.xyz' target="_blank">https://genesis.dymension.xyz</a>
         </div>
