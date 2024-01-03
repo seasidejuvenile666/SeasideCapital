@@ -1,11 +1,13 @@
+import convertUpperCaseToLowercase from './convertUpperCaseToLowercase';
+
 async function checkWallets(addresses) {
     const results = [];
   
     for (const address of addresses) {
 
-    const lowercaseAddress = address.slice(2).toLowerCase();
+    const lowercaseAddress = await convertUpperCaseToLowercase(address);
 
-    const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=0x${lowercaseAddress}`;
+    const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=${lowercaseAddress}`;
   
       try {
         const response = await fetch(apiUrl);
@@ -22,4 +24,4 @@ async function checkWallets(addresses) {
     return results;
   }
   
-  module.exports = checkWallets;
+  export default checkWallets;

@@ -7,7 +7,7 @@ const { TextArea } = Input;
 
 const columns = [
   {
-    title: 'Ethereum地址',
+    title: '地址',
     dataIndex: 'address',
     key: 'address',
     render: (text) => <a>{text}</a>,
@@ -50,7 +50,7 @@ export default function BatchQuery() {
       const newData = queryResults.map((result, index) => ({
         key: index.toString(),
         address: result.address,
-        number: result.error ? 0 : (result.data.amount || 0), 
+        number: result.error ? 0 : (result.data.amount || 0),
       }));
 
       setData(newData);
@@ -84,8 +84,14 @@ export default function BatchQuery() {
         }}
       >
         <h1>$dym批量查询</h1>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
+          官网: <a href='https://genesis.dymension.xyz' target="_blank">https://genesis.dymension.xyz</a>
+        </div>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
+          70M $DYM (7% of total supply)
+        </div>
         <TextArea
-          placeholder="请输入Ethereum地址，以换行进行分隔，一次最多100个"
+          placeholder="请输入Ethereum/Solana/Cosmos Hub/Celestia/Stride/Osmosis/Stargaze地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
           style={{
@@ -111,7 +117,10 @@ export default function BatchQuery() {
           查询
         </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$dym为：{totalPoints}，Claim时间：1月21日 20:00 (UTC+8)
+          {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$dym为：{totalPoints}
+        </div>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
+          Claim时间：1月21日 20:00 (UTC+8)
         </div>
         <div style={{ width: '75vw', margin: '10px' }}>
           <Table
