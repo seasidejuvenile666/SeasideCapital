@@ -25,7 +25,7 @@ tags: [review]
 
 我以2U/张的价格双押出给了群友，我只吃0-2U的鱼头，剩下2U-100U的鱼身留给群友暴富
 
-此处特别鸣谢[饼神](https://twitter.com/lonelyhorseme)，项目方搭建了测试网到主网的桥梁，饼神搭建了社区和项目方之间沟通的桥梁，也特别鸣谢[97哥](@97_Crypto)，凝聚了整个社区
+此处特别鸣谢[饼神](https://twitter.com/lonelyhorseme)，项目方搭建了测试网到主网的桥梁，饼神搭建了社区和项目方之间沟通的桥梁，也特别鸣谢[97哥](https://twitter.com/97_Crypto)，凝聚了整个社区
 
 ![goerli](/img/blog/2024-1-5-phase-review/2.jpg)
 
