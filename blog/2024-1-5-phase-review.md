@@ -25,6 +25,8 @@ tags: [review]
 
 我以2U/张的价格双押出给了群友，我只吃0-2U的鱼头，剩下2U-100U的鱼身留给群友暴富
 
+此处特别鸣谢[饼神](https://twitter.com/lonelyhorseme)，项目方搭建了测试网到主网的桥梁，饼神搭建了社区和项目方之间沟通的桥梁，也特别鸣谢[97哥](@97_Crypto)，凝聚了整个社区
+
 ![goerli](/img/blog/2024-1-5-phase-review/2.jpg)
 
 - [@Bens_ink](https://twitter.com/Bens_ink) Scroll上第一个官方支持的铭文，不仅得到了Scroll联创和技术的点赞，还上了Scroll官方生态墙，bens打完就3倍，这个铭文我打之前就[喊了](https://twitter.com/\_0xSeaside\_/status/1739189994840002771)
