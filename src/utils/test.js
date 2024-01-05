@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 
 const url = 'https://np-api.newparadigm.manta.network/getPointsV1';
 const payload = {
-  address: '0xC7AF21c54344ecD042c40286b05bd64BD8612dEE',
+  address: '',
   polkadot_address: ''
 };
 
