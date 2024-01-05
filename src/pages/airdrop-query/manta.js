@@ -88,7 +88,7 @@ export default function BatchQuery() {
           Manta Network 官网: <a href='https://airdrop.manta.network/' target="_blank">https://airdrop.manta.network</a>
         </div>
         <TextArea
-          placeholder="请输入地址，以换行进行分隔，一次最多100个"
+          placeholder="请输入EVM地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
           style={{
