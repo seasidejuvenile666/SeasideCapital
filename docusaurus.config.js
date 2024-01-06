@@ -87,11 +87,11 @@ const config = {
               // Add more options as needed
             ],
           },
-          // {
-          //   to: '/airdrop-calendar',
-          //   label: 'Airdrop Calendar',
-          //   position: 'right',
-          // },          
+          {
+            to: '/airdrop-calendar',
+            label: 'Airdrop Calendar',
+            position: 'right',
+          },          
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
