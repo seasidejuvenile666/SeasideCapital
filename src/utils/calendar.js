@@ -52,6 +52,12 @@ const CalendarInstance = () => {
             url: 'https://genesis.dymension.xyz',
         },
         {
+            title: '20:00 $FRAME空投',
+            start: new Date(2024, 0, 31, 20, 0),
+            end: new Date(2024, 0, 31, 20, 0),
+            url: 'https://www.frame.xyz/governance',
+        },
+        {
             title: 'BTC减半',
             start: new Date(2024, 3, 27),
             end: new Date(2024, 3, 28),
