@@ -7,7 +7,7 @@ const FeatureList = [
     title: 'Support Me',
     description: (
       <>
-        Give me a star at here <a href='https://github.com/seasidejuvenile666/SeasideCapital'>GitHub</a>
+        Give me a star at here <a href='https://github.com/seasidejuvenile666/SeasideCapital' target='_blank'>GitHub</a>
       </>
     ),
   },
