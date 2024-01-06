@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import CalendarInstance from '../utils/calendar'; // 导入你的日历组件
+import CalendarInstance from '../utils/calendar'; 
 
 export default function AirdropCalendar() {
     return (
@@ -15,7 +15,7 @@ export default function AirdropCalendar() {
             >
                 <h1>空投日历(UTC+8)</h1>
                 <div style={{ width: '80vw'}}>
-                    <CalendarInstance /> {/* 渲染你的日历组件 */}
+                    <CalendarInstance /> 
                 </div>
             </div>
         </Layout>

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
-import 'moment/locale/zh-cn'; // 引入中文语言包
+import 'moment/locale/zh-cn'; 
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
 const localizer = momentLocalizer(moment);
 
 const CalendarInstance = () => {
-    // 在这里创建你的事件数据，格式为数组，每个事件为一个对象
+
     const events = [
         {
             title: '19:00 $ZKF上线bitget',
@@ -62,7 +62,7 @@ const CalendarInstance = () => {
             start: new Date(2024, 3, 27),
             end: new Date(2024, 3, 28),
         },
-        // 添加更多事件...
+        
     ];
 
     moment.locale('zh-cn');
@@ -70,15 +70,14 @@ const CalendarInstance = () => {
     const eventStyleGetter = (event, start, end, isSelected) => {
         return {
           style: {
-            fontSize: '14px', // 修改字体大小
-            // 可以根据需要添加其他样式，比如颜色、背景色等
+            fontSize: '14px', 
           },
         };
       };
 
     const eventClick = (event, e) => {
         if (event.url) {
-            window.open(event.url, '_blank'); // 在新标签页打开链接
+            window.open(event.url, '_blank'); 
         }
     };
 
@@ -90,8 +89,8 @@ const CalendarInstance = () => {
                 startAccessor="start"
                 endAccessor="end"
                 eventPropGetter={eventStyleGetter}
-                onSelectEvent={eventClick} // 点击事件的回调函数
-                style={{ height: 500 }} // 设置日历的高度
+                onSelectEvent={eventClick} 
+                style={{ height: 500 }} 
             />
         </div>
     );
