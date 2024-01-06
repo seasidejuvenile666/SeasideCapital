@@ -40,16 +40,16 @@ const CalendarInstance = () => {
             url: 'https://zkfair.io/airdrop',
         },
         {
-            title: '20:00 $DYM',
-            start: new Date(2024, 0, 21, 20, 0),
-            end: new Date(2024, 0, 21, 20, 0),
-            url: 'https://genesis.dymension.xyz',
-        },
-        {
-            title: '17:00 $NAM',
+            title: '17:00 $NAM空投',
             start: new Date(2024, 0, 12, 17, 0),
             end: new Date(2024, 0, 12, 17, 0),
             url: 'https://rpgfdrop.namada.net',
+        },
+        {
+            title: '20:00 $DYM空投',
+            start: new Date(2024, 0, 21, 20, 0),
+            end: new Date(2024, 0, 21, 20, 0),
+            url: 'https://genesis.dymension.xyz',
         },
         {
             title: 'BTC减半',
