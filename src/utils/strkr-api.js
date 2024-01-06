@@ -1,20 +1,27 @@
 async function checkWallets(addresses) {
     const results = [];
   
-    for (const address of addresses) {
+    async function fetchData(address) {
       const apiUrl = `https://starkrocket.xyz/api/check_wallet?address=${address}`;
-  
       try {
         const response = await fetch(apiUrl);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        results.push({ address, data });
+        return { address, data };
       } catch (error) {
-        results.push({ address, error: error.message });
+        return { address, error: error.message };
       }
     }
+  
+    const promises = addresses.map(address => fetchData(address));
+
+    // Using Promise.all to execute all promises concurrently
+    const resultsArray = await Promise.all(promises);
+  
+    // Pushing results to the final array
+    results.push(...resultsArray);
   
     return results;
   }

@@ -2,10 +2,9 @@ import fetch from 'node-fetch';
 
 async function checkWallets(addresses) {
   const url = 'https://np-api.newparadigm.manta.network/getPointsV1';
-
   const results = [];
 
-  for (const address of addresses) {
+  async function fetchData(address) {
     const payload = {
       address: address,
       polkadot_address: ''
@@ -22,14 +21,18 @@ async function checkWallets(addresses) {
 
       if (response.ok) {
         const data = await response.json();
-        results.push({ address: address, data: data });
+        return { address: address, data: data };
       } else {
-        results.push({ address: address, error: 'Network response was not ok.' });
+        return { address: address, error: 'Network response was not ok.' };
       }
     } catch (error) {
-      results.push({ address: address, error: error.message });
+      return { address: address, error: error.message };
     }
   }
+
+  const promises = addresses.map(address => fetchData(address));
+  const resultsArray = await Promise.all(promises);
+  results.push(...resultsArray);
 
   return results;
 }

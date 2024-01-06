@@ -88,6 +88,11 @@ const config = {
             ],
           },
           // {
+          //   to: '/airdrop-calendar',
+          //   label: 'Airdrop Calendar',
+          //   position: 'right',
+          // },          
+          // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',
