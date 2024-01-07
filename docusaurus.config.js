@@ -50,6 +50,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,7 +78,7 @@ const config = {
             position: 'left',
             label: 'Article',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             label: 'Airdrop Query',
             position: 'left',
@@ -91,7 +93,7 @@ const config = {
             to: '/airdrop-calendar',
             label: 'Airdrop Calendar',
             position: 'right',
-          },          
+          },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
