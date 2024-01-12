@@ -278,7 +278,7 @@ export const raasData = [
 
 export const moduleData = [
   {
-    projectName: "celestia（已发币）",
+    projectName: "celestia(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Celestia?k=MTk4NA%3D%3D",
     financingBackground: "2021-3-4 种子轮150w\n2022-10-20 5500w",
     twitterLink: "https://twitter.com/CelestiaOrg",
@@ -327,7 +327,7 @@ export const moduleData = [
     tutorialLink: "",
   },
   {
-    projectName: "dymension",
+    projectName: "dymension(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/dYmension?k=MjA5Nw%3D%3D",
     financingBackground: "2023-2-9 种子轮670w",
     twitterLink: "https://twitter.com/dymension",
@@ -446,7 +446,7 @@ export const BinanceLabsIncubationSeason6Data = [
     tutorialLink: "",
   },
   {
-    projectName: "NFP",
+    projectName: "NFP(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/NFPrompt?k=Nzk5Mw%3D%3D",
     financingBackground: "2023-06-07 种子轮金额未披露",
     twitterLink: "https://twitter.com/nfprompt",
@@ -509,7 +509,7 @@ export const BinanceLabMVBVIData = [
     tutorialLink: "",
   },
   {
-    projectName: "Sleepless AI",
+    projectName: "Sleepless AI(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Sleepless%20AI?k=NzY1NA%3D%3D",
     financingBackground: "",
     twitterLink: "https://twitter.com/sleeplessai_lab",
