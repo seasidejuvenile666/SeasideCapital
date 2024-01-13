@@ -120,6 +120,34 @@ export const L2data = [
 
 <Table data={L2data} />
 
+## LSD
+
+export const LSDdata = [
+  {
+    projectName: "EigenLayer",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/EigenLayer?k=Mjk4MA%3D%3D",
+    financingBackground: "种子轮1450w\nA轮5000w",
+    twitterLink: "https://twitter.com/eigenlayer",
+    tutorialLink: "",
+  },
+    {
+    projectName: "Swell Network",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Swell%20Network?k=Mjk3Nw%3D%3D",
+    financingBackground: "种子轮375W",
+    twitterLink: "https://twitter.com/swellnetworkio",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Puffer Finance",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Puffer%20Finance?k=NzkwNA%3D%3D",
+    financingBackground: "Pre种子轮65W\n种子轮550W",
+    twitterLink: "https://twitter.com/puffer_finance",
+    tutorialLink: "",
+  },
+];
+
+<Table data={LSDdata} />
+
 ## DEFI
 
 export const defidata = [
