@@ -37,7 +37,7 @@ tags: [review]
 
 - $STRKR 空投规则模仿 $ARB ，目前单号1100币扣掉gas值10刀，聊胜于无
 
-昨天就喊大家记得去领，同时提供了[批量查询工具](https://twitter.com/_0xSeaside_/status/1742780751391961123)
+昨天就喊大家记得去领，同时提供了[批量查询工具](https://twitter.com/0xSeaside888/status/1742780751391961123)
 
 ![STRKR](/img/blog/2024-1-5-phase-review/3.jpg)
 

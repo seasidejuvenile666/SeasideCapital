@@ -27,7 +27,7 @@ const FeatureList = [
     title: 'Contact Me',
     description: (
       <>
-        twitter:<a href='https://twitter.com/_0xSeaside_' target='_blank'>@_0xSeaside_</a>
+        twitter:<a href='https://twitter.com/0xSeaside888' target='_blank'>@0xSeaside888</a>
         <br></br>
         weibo:<a href='https://weibo.com/u/7824140448' target='_blank'>0xSeaside_</a>
       </>

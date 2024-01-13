@@ -65,7 +65,7 @@ sei是一个测试网0撸的机会，也是一个很适合本金少的朋友的�
 
 对于btc生态，一直到币安上ordi都存在偏见，因为我想不通铭文到底有啥用，想不通他的赚钱逻辑，后来想明白庄家[拉出暴富神话的逻辑](https://www.0xseaside.com/docs/inscription/%E8%B4%A8%E7%96%91%E5%BA%84%E5%AE%B6%E3%80%81%E7%90%86%E8%A7%A3%E5%BA%84%E5%AE%B6%E3%80%81%E6%88%90%E4%B8%BA%E5%BA%84%E5%AE%B6%E2%80%94%E2%80%94%E4%B8%BA%E4%BD%95%E9%93%AD%E6%96%87%E4%BC%9A%E6%98%AF%E9%80%86%E5%A4%A9%E6%94%B9%E5%91%BD%E7%9A%84%E6%9C%BA%E4%BC%9A)后就义无反顾地放弃偏见，拥抱泡沫
 
-各种链都有打，只要有官方背书赔率都不错，有些项目我也无私分享出来，比如最近的Scroll上的[bens](https://twitter.com/_0xSeaside_/status/1739189994840002771)，打完就是3倍
+各种链都有打，只要有官方背书赔率都不错，有些项目我也无私分享出来，比如最近的Scroll上的[bens](https://twitter.com/0xSeaside888/status/1739189994840002771)，打完就是3倍
 
 同时我也无私分享了[EVM XRC20通用批量脚本](https://www.0xseaside.com/docs/inscription/EVM%20XRC20%E9%80%9A%E7%94%A8%E6%89%B9%E9%87%8F%E8%84%9A%E6%9C%AC)，让小白也能掌握科技的力量
 

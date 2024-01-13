@@ -73,4 +73,4 @@ zkSync团队也意识到当前的劣势，想从发链技术栈这个市场中�
 
 今天的介绍到此结束，有新消息会在推特和教程里更新，有问题的也可以去推特DM我
 
-[我的推特](https://twitter.com/_0xSeaside_): [https://twitter.com/\_0xSeaside\_](https://twitter.com/_0xSeaside_)
+[我的推特](https://twitter.com/0xSeaside888): [https://twitter.com/0xSeaside888](https://twitter.com/0xSeaside888)

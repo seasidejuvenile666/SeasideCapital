@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Altlayer Altitude 第四期「自治世界」开始了，作为目前进度最快的raas产品，大概率测试网做完就发币了，因为需要本币（$ALT）当gas用，所以我个人是拉满了
 
-[我的推特](https://twitter.com/_0xSeaside_): [https://twitter.com/\_0xSeaside\_](https://twitter.com/_0xSeaside_)
+[我的推特](https://twitter.com/0xSeaside888): [https://twitter.com/0xSeaside888](https://twitter.com/0xSeaside888)
 
 [银河任务链接](https://galxe.com/altlayer/campaign/GCuPiULrKh)
 
@@ -132,6 +132,6 @@ Altlayer Altitude 第四期「自治世界」开始了，作为目前进度最�
 
 今天的教程到此结束，有新消息会在推特和教程里更新，有问题的也可以去推特DM我
 
-[我的推特](https://twitter.com/_0xSeaside_): [https://twitter.com/\_0xSeaside\_](https://twitter.com/_0xSeaside_)
+[我的推特](https://twitter.com/0xSeaside888): [https://twitter.com/0xSeaside888](https://twitter.com/0xSeaside888)
 
 撸毛是持久战，需要付出耐心和体力，祝大家都能一夜暴富
