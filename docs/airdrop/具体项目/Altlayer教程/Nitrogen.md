@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 新一期Nitrogen测试网部署合约教程
+# Altlayer新一期Nitrogen测试网部署合约教程
 
 ![alt](./img/Nitrogen/1.png)
 
