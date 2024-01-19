@@ -2,7 +2,7 @@
 slug: three-airdrop
 title: 3个名牌空投项目
 authors: seaside
-tags: [airdrop, 交互]
+tags: [airdrop, interact]
 ---
 
 ## 1.GRVT
