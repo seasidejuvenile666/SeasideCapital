@@ -120,7 +120,7 @@ export default function BatchQuery() {
           {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$dym为：{totalPoints}
         </div>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          Claim时间：1月21日 20:00 (UTC+8)
+          结束认领时间：1月21日 20:00 (UTC+8)
         </div>
         <div style={{ width: '75vw', margin: '10px' }}>
           <Table
