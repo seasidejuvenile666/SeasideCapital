@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
+slug: historical-airdrop-rules
+title: 过往项目空投规则记录
+tags: [airdrop,rules]
 ---
-
-# 过往项目空投规则记录
 
 ## UNI
 

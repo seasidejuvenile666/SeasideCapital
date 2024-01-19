@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: project-list
+title: 项目交互列表
+tags: [airdrop,project-list]
 ---
-
-# 项目交互列表
 
 **排名不分先后**
 
@@ -292,7 +293,7 @@ export const onchainPerpetualData = [
 
 export const raasData = [
   {
-    projectName: "altlayer",
+    projectName: "Altlayer(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
     financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
     twitterLink: "https://twitter.com/alt_layer",
@@ -530,7 +531,7 @@ export const BinanceLabsIncubationSeason6Data = [
 
 export const BinanceLabMVBVIData = [
   {
-    projectName: "altlayer",
+    projectName: "Altlayer(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
     financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
     twitterLink: "https://twitter.com/alt_layer",

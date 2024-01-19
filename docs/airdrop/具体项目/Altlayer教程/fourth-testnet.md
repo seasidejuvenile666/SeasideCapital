@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: fourth-testnet
+title: 5分钟速通第四期3款游戏
+tags: [airdrop,altlayer,fourth-testnet]
 ---
-
-# 5分钟速通第四期3款游戏
 
 ![alt](./img/fourth-testnet/1.png)
 

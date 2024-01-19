@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+slug: gors-cross-chain-tutorials
+title: gors跨链教程
+tags: [inscription,gors,cross-chain,tutorials]
 ---
 
 ## 进入官网

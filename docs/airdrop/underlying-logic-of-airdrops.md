@@ -1,8 +1,9 @@
 ---
 sidebar_position: 4
+slug: underlying-logic-of-airdrops
+title: 空投的底层逻辑
+tags: [airdrop,underlying-logic]
 ---
-
-# 空投的底层逻辑
 
 有人可能不明白项目方为什么要发空投，把白花花的银子发给穷人，这不造孽吗？我认为有两个原因：
 

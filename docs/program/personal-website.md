@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: personal-website
+title: 0成本5分钟快速搭建个人网站教程
+tags: [program,personal-website]
 ---
-
-# 0成本5分钟快速搭建个人网站教程
 
 ## 框架
 

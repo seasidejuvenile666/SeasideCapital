@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
+slug: how-to-find-project
+title: 如何找交互的项目
+tags: [airdrop,find project]
 ---
-
-# 如何找交互的项目
 
 有人会问如何找有发币预期的项目，我这里提供两种方法：
 

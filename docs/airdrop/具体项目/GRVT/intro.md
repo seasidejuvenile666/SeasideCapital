@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: intro
+title: 必撸项目——背景豪华、zks官方扶持、舍得花钱营销的GRVT
+tags: [airdrop,GRVT,intro]
 ---
-
-# 必撸项目——背景豪华、zks官方扶持、舍得花钱营销的GRVT
 
 如果说3、4月份由于空投狂热情绪引发的zks上出现的是各种群友创业盘，那么现在的GRVT可以说是zks上官方扶持的原生正规军
 

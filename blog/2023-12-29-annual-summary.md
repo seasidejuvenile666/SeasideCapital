@@ -1,5 +1,5 @@
 ---
-slug: annual summary
+slug: 2023-annual-summary
 title: 2023年度总结
 authors: seaside
 tags: [summary]

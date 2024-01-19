@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+slug: why-inscription-is-a-chance-to-get-rich
+title: 质疑庄家、理解庄家、成为庄家——为何铭文会是逆天改命的机会
+tags: [inscription,whale]
 ---
 
 ## 要想暴富，利益和技术，哪个更重要？

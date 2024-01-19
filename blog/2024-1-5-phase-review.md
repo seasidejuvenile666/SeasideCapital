@@ -1,5 +1,5 @@
 ---
-slug: 2024-1-5 phase review
+slug: 2024-1-5-phase-review
 title: 2024-1-5 阶段复盘
 authors: seaside
 tags: [review]

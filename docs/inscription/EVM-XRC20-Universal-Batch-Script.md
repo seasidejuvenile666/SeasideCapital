@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+slug: EVM-XRC20-Universal-Batch-Script
+title: EVM XRC20通用批量脚本
+tags: [inscription,EVM,script]
 ---
 
 铭文生态日益火爆，科学家已经上脚本all in了，你还在一个个手搓交易？
