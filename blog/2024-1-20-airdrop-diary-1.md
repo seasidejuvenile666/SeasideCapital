@@ -11,7 +11,7 @@ tags: [airdrop,diary]
 
 1. 把斯塔克的钱提回交易所，不陪他玩了
 
-2. 往[@swellnetworkio](https://twitter.com/swellnetworkio) 存了1.05ETH
+2. 往[@swellnetworkio](https://twitter.com/swellnetworkio) 存了1ETH
 
 传送门：https://app.swellnetwork.io?ref=0xc7af21c54344ecd042c40286b05bd64bd8612dee
 
@@ -19,7 +19,7 @@ tags: [airdrop,diary]
 
 ![swell](/img/blog/airdrop-diary-1/1.jpg)
 
-3. 往[@RenzoProtocol](https://twitter.com/RenzoProtocol) 存了0.502ETH
+3. 往[@RenzoProtocol](https://twitter.com/RenzoProtocol) 存了0.5ETH
 
 传送门：https://app.renzoprotocol.com/?ref=0xc7af21c54344ecd042c40286b05bd64bd8612dee
 
