@@ -17,9 +17,13 @@ tags: [airdrop,diary]
 
 获得的swETH等29号[@eigenlayer](https://twitter.com/eigenlayer)开放再存
 
+![swell](/img/blog/airdrop-diary-1/1.jpg)
+
 3. 往[@RenzoProtocol](https://twitter.com/RenzoProtocol) 存了0.502ETH
 
 传送门：https://app.renzoprotocol.com/?ref=0xc7af21c54344ecd042c40286b05bd64bd8612dee
+
+![renzo](/img/blog/airdrop-diary-1/2.jpg)
 
 ## 逻辑
 
