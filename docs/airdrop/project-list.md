@@ -153,6 +153,13 @@ export const LSDdata = [
     tutorialLink: "",
   },
   {
+    projectName: "Renzo Protocol",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Renzo%20Protocol?k=OTk0NA%3D%3D",
+    financingBackground: "2024-01-15 种子轮320W",
+    twitterLink: "https://twitter.com/RenzoProtocol",
+    tutorialLink: "",
+  },
+  {
     projectName: "Puffer Finance",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Puffer%20Finance?k=NzkwNA%3D%3D",
     financingBackground: "2022-06-01 Pre种子轮65W\n2023-08-08 种子轮550W",
