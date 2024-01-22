@@ -51,7 +51,7 @@ export default function BatchQuery() {
         queryResults.push(result);
   
         // Delay between queries
-        await new Promise(resolve => setTimeout(resolve, 300));
+        await new Promise(resolve => setTimeout(resolve, 1000));
       }
   
       setResults(queryResults);
@@ -92,7 +92,7 @@ export default function BatchQuery() {
           Fly Starter 官网: <a href='https://flystarter.io/' target="_blank">https://flystarter.io/</a>
         </div>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          服务器限制了查询速率，如果一次性输入较多地址请耐心等待
+          服务器限制了查询速率，查询间隔为1s，如果一次性输入较多地址请耐心等待
         </div>
         <TextArea
           placeholder="请输入EVM地址，以换行进行分隔，一次最多100个"
