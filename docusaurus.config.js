@@ -86,6 +86,7 @@ const config = {
               { to: '/airdrop-query/starkrocket', label: 'starkrocket' },
               { to: '/airdrop-query/dymension', label: 'dymension' },
               { to: '/airdrop-query/manta', label: 'Manta' },
+              { to: '/airdrop-query/fly-starter', label: 'Fly Starter' },
               { to: '/airdrop-query/altlayer', label: 'Altlayer' },
               // Add more options as needed
             ],
