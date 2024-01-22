@@ -51,7 +51,7 @@ export default function BatchQuery() {
         queryResults.push(result);
   
         // Delay between queries
-        await new Promise(resolve => setTimeout(resolve, 50));
+        await new Promise(resolve => setTimeout(resolve, 100));
       }
   
       setResults(queryResults);
