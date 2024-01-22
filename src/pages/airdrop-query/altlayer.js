@@ -14,7 +14,7 @@ const columns = [
     width: '37.5vw',
   },
   {
-    title: '$MANTA',
+    title: '$Alt',
     dataIndex: 'number',
     key: 'number',
     width: '37.5vw',
