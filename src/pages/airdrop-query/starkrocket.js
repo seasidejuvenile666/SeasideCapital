@@ -88,7 +88,7 @@ export default function BatchQuery() {
           StarkRocket 官网: <a href='https://starkrocket.xyz/airdrop' target="_blank">https://starkrocket.xyz/airdrop</a>
         </div>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          请导入Starknet网络的地址进行查询，不是 EVM
+          请导入Starknet网络的地址进行查询，不是 EVM 地址
         </div>
         <TextArea
           placeholder="请输入地址，以换行进行分隔，一次最多100个"
