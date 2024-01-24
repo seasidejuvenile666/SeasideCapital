@@ -471,7 +471,7 @@ tags: [airdrop,rules]
 
 ## TIA
 
-空投时间：2023年9月5日
+空投时间：2023年10月31日
 
 空投总量：60000000
 
@@ -494,3 +494,40 @@ tags: [airdrop,rules]
 -----
 
 ![TIA](/img/docs/airdrop/historical-airdrop-rules/19.jpg)
+
+## ALT
+
+空投时间：2024年1月25日
+
+空投总量：300,000,000
+
+空投规则：
+
+![alt](/img/docs/airdrop/historical-airdrop-rules/20.png)
+
+1. NFT持有者
+
+持有OG徽章和水獭即有
+
+2. EigenLayer重质押者：
+
+注意这部分不仅计算了EigenLayer的积分，还计算了你质押在Renzo、Ether.fi 和 KelpDAO这些协议获得的EigenLayer的积分
+
+![alt](/img/docs/airdrop/historical-airdrop-rules/21.png)
+
+3. Tia质押者
+
+4. 银河任务合格者
+
+![alt](/img/docs/airdrop/historical-airdrop-rules/22.png)
+
+反女巫规则：
+
+1. 参与了银河任务的地址必须在以太坊主网区块号16107850 至 18769911之间起码有一笔tx
+
+2. 批量分发资金造成帐号关联的号＞10并且在同一时间有类似交易行为的号会被女巫
+
+空投价值：
+
+
+官方空投规则blog链接：https://blog.altlayer.io/altlayer-airdrop-season-one-9148f6114c0b
