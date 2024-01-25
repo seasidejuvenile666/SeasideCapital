@@ -1,28 +1,27 @@
-import fetch from 'node-fetch';
-// const fetch = require('node-fetch')
+// import fetch from 'node-fetch';
+const fetch = require('node-fetch')
 
-const url = 'https://np-api.newparadigm.manta.network/getPointsV1';
-const payload = {
-  address: '',
-  polkadot_address: ''
+const url = "";
+const payload = [];
+
+const headers = new Headers({
+
+});
+
+const requestOptions = {
+  method: "POST",
+  headers: headers,
+  body: JSON.stringify(payload),
 };
 
-fetch(url, {
-  method: 'POST',
-  body: JSON.stringify(payload),
-  headers: {
-    'Content-Type': 'application/json'
-  }
-})
+fetch(url, requestOptions)
   .then(response => {
-    if (response.ok) {
-      return response.json();
-    }
-    throw new Error('Network response was not ok.');
+    console.log("Status Code:", response.status);
+    return response.text();
   })
   .then(data => {
-    console.log('Response:', data);
+    console.log("Response Data:", data);
   })
   .catch(error => {
-    console.error('There was a problem with the request:', error);
+    console.error("Error:", error);
   });
