@@ -19,13 +19,13 @@ Altlayer只在22年7月融了720w，23年的融资并不顺利，因此项目方
 
 事实证明，我赌对了
 
-![altlayer](/img/blog/altlayer/1.png)
+![altlayer](/img/blog/altlayer/altlayer-1.png)
 
 第一轮Polychain Capital等机构机构投了720w，成本0.008；第二轮新融资币安投了1560w，成本0.018
 
 同时项目方表示感谢社区的厚爱与支持，将给社区提供专门的空投表示感谢
 
-![altlayer](/img/blog/altlayer/2.png)
+![altlayer](/img/blog/altlayer/altlayer-2.png)
 
 ## 梳理时间线
 
@@ -41,7 +41,7 @@ Altlayer只在22年7月融了720w，23年的融资并不顺利，因此项目方
 
 24/1/11，我提醒本林群的群友Altlayer可能要发币了，NFT的线太老鼠仓了
 
-![altlayer](/img/blog/altlayer/3.png)
+![altlayer](/img/blog/altlayer/altlayer-3.png)
 
 ## 倒在最后一步
 
