@@ -41,7 +41,7 @@ Altlayer只在22年7月融了720w，23年的融资并不顺利，因此项目方
 
 24/1/11，我提醒本林群的群友Altlayer可能要发币了，NFT的线太老鼠仓了
 
-![altlayer](/img/blog/altlayer/3.jpg)
+![altlayer](/img/blog/altlayer/3.png)
 
 ## 倒在最后一步
 
