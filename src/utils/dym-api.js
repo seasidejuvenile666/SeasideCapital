@@ -7,7 +7,7 @@ async function checkWallets(addresses) {
   async function fetchData(address) {
     try {
       const lowercaseAddress = await convertUpperCaseToLowercase(address);
-      const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=${lowercaseAddress}`;
+      const apiUrl = `https://geteligibleuserrequest-xqbg2swtrq-uc.a.run.app/?address=&claimAddress=${lowercaseAddress}`;
 
       const response = await fetch(apiUrl);
       if (!response.ok) {
