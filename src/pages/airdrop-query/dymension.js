@@ -90,8 +90,10 @@ export default function BatchQuery() {
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           70M $DYM (7% of total supply)
         </div>
+        <div style={{ fontSize: '18px', marginTop: '20px' }}>
+          请输入绑定的Ethereum地址，以换行进行分隔，一次最多100个
+        </div>
         <TextArea
-          placeholder="请输入Ethereum/Solana/Cosmos Hub/Celestia/Stride/Osmosis/Stargaze地址，以换行进行分隔，一次最多100个"
           value={addresses}
           onChange={handleInputChange}
           style={{
@@ -118,9 +120,6 @@ export default function BatchQuery() {
         </Button>
         <div style={{ fontSize: '18px', marginTop: '20px' }}>
           {totalPoints === 0 ? '很遗憾，' : '发财了哥！'}您的所有地址总计可领取的$dym为：{totalPoints}
-        </div>
-        <div style={{ fontSize: '18px', marginTop: '20px' }}>
-          结束认领时间：1月21日 20:00 (UTC+8)
         </div>
         <div style={{ width: '75vw', margin: '10px' }}>
           <Table
