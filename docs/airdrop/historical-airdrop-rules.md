@@ -517,9 +517,15 @@ tags: [airdrop,rules]
 
 3. Tia质押者
 
-4. 银河任务合格者
+35-200档单号241个`$ALT`
 
 ![alt](/img/docs/airdrop/historical-airdrop-rules/22.png)
+
+4. 银河任务合格者
+
+满分号933个`$ALT`
+
+![alt](/img/docs/airdrop/historical-airdrop-rules/23.png)
 
 反女巫规则：
 
@@ -527,7 +533,6 @@ tags: [airdrop,rules]
 
 2. 批量分发资金造成帐号关联的号＞10并且在同一时间有类似交易行为的号会被女巫
 
-空投价值：
-
+空投价值：开盘0.3U，测试网满分号280U
 
 官方空投规则blog链接：https://blog.altlayer.io/altlayer-airdrop-season-one-9148f6114c0b
