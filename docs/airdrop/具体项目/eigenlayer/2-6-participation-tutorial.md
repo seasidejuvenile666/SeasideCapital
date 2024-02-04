@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: eigenlayer-2-6-participation-tutorial
 title: eigenlayer最新一期规则解读及2月6日参与教程
-tags: [airdrop,altlayer,fourth-testnet]
+tags: [airdrop,LRT,eigenlayer]
 ---
 
 ## 规则
