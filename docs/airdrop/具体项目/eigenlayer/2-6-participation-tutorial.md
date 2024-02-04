@@ -42,6 +42,8 @@ tags: [airdrop,LRT,eigenlayer]
 
 来到[swETH合约](https://etherscan.io/address/0xf951e335afb289353dc249e82926178eac7ded78#writeProxyContract#F2)
 
+先连接钱包
+
 第一个空输入合约地址：0x858646372CC42E1A627fcE94aa7A7033e7CF075A
 
 这是EigenLayer: Strategy Manager合约
