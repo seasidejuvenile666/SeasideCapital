@@ -170,6 +170,34 @@ export const LSDdata = [
 
 <Table data={LSDdata} />
 
+## solana生态
+
+export const solanadata = [
+  {
+    projectName: "Phoenix",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Phoenix?k=ODQ0OQ%3D%3D",
+    financingBackground: "2023-08-18 种子轮330w",
+    twitterLink: "https://twitter.com/PhoenixTrade",
+    tutorialLink: "",
+  },
+    {
+    projectName: "Elusiv",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Elusiv?k=NDcwOQ%3D%3D",
+    financingBackground: "2022-11-04 战略融资350w",
+    twitterLink: "https://twitter.com/elusivprivacy",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Squads",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Squads?k=NDc1Ng%3D%3D",
+    financingBackground: "2021-10-28 种子轮500w\n2022-02-25 战略融资500w\n2023-10-16 战略融资570w",
+    twitterLink: "https://twitter.com/SquadsProtocol",
+    tutorialLink: "",
+  },
+];
+
+<Table data={solanadata} />
+
 ## DEFI
 
 export const defidata = [
