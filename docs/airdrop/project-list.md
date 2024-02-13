@@ -335,10 +335,10 @@ export const raasData = [
     tutorialLink: "",
   },
   {
-    projectName: "opside",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/Opside?k=NTkxMQ%3D%3D",
+    projectName: "Lumoz",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Lumoz?k=NTkxMQ%3D%3D",
     financingBackground: "2023-4-6 种子轮400w",
-    twitterLink: "https://twitter.com/SatoriFinance",
+    twitterLink: "https://twitter.com/LumozOrg",
     tutorialLink: "",
   },
     {
