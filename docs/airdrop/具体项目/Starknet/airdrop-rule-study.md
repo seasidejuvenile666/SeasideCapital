@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 slug: airdrop-rule-study
-title: starknet空投规则研究
+title: Starknet空投规则研究及后续要注意的点
 tags: [airdrop,starknet,rule]
 ---
 
