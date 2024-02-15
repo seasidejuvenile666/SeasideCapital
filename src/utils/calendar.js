@@ -112,6 +112,24 @@ const CalendarInstance = () => {
             url: '',
         },
         {
+            title: '1:00 $DYM上线binance',
+            start: new Date(2024, 1, 7, 1, 0),
+            end: new Date(2024, 1, 7, 1, 0),
+            url: 'https://www.binance.com/zh-CN/trade/DYM_USDT?type=spot',
+        },
+        {
+            title: '20:00 $STRK领取',
+            start: new Date(2024, 1, 20, 20, 0),
+            end: new Date(2024, 1, 20, 20, 0),
+            url: 'https://provisions.starknet.io',
+        },
+        {
+            title: '20:00 $STRK上线OK',
+            start: new Date(2024, 1, 20, 20, 0),
+            end: new Date(2024, 1, 20, 20, 0),
+            url: 'https://www.okx.com/cn/trade-spot/strk-usdt',
+        },
+        {
             title: 'BTC减半',
             start: new Date(2024, 3, 27),
             end: new Date(2024, 3, 28),
