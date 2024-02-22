@@ -505,14 +505,14 @@ export const BinanceLabsIncubationSeason6Data = [
   {
     projectName: "Ethena Labs",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Ethena?k=ODU4Mw%3D%3D",
-    financingBackground: "2023-7-17 种子轮650w",
+    financingBackground: "2023-7-17 种子轮650w\n2024-02-16 战略融资(binance labs在内)1400w，估值3亿",
     twitterLink: "https://twitter.com/ethena_labs",
     tutorialLink: "",
   },
   {
     projectName: "Shogun",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Shogun?k=OTUwMQ%3D%3D",
-    financingBackground: "",
+    financingBackground: "binance labs投资",
     twitterLink: "https://twitter.com/shogunfi",
     tutorialLink: "",
   },
@@ -526,7 +526,7 @@ export const BinanceLabsIncubationSeason6Data = [
   {
     projectName: "NFP(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/NFPrompt?k=Nzk5Mw%3D%3D",
-    financingBackground: "2023-06-07 种子轮金额未披露",
+    financingBackground: "2023-06-07 种子轮金额未披露\nbinance labs投资",
     twitterLink: "https://twitter.com/nfprompt",
     tutorialLink: "",
   },
