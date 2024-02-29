@@ -83,7 +83,7 @@ export const L2data = [
     tutorialLink: "",
   },
   {
-    projectName: "starknet",
+    projectName: "starknet(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/StarkNet?k=Mjc1MQ%3D%3D",
     financingBackground: "2018-05 种子轮600w\n2018-07 以太坊基金会投了1200万\n2018-10 A轮3000w\n2021-03 B轮7500w\n2021-11 C轮5000万\n2022-05 D轮1亿\n2022-07 Alameda Research投了950万\n合计2.825亿",
     twitterLink: "https://twitter.com/Starknet",
