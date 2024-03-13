@@ -166,6 +166,13 @@ export const LSDdata = [
     twitterLink: "https://twitter.com/puffer_finance",
     tutorialLink: "",
   },
+    {
+    projectName: "etherfi(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Ether.Fi?k=NzExNA%3D%3D",
+    financingBackground: "2023-02-28 种子轮530w\n2024-02-27 2700w",
+    twitterLink: "https://twitter.com/ether_fi",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={LSDdata} />
@@ -244,7 +251,7 @@ export const onchainPerpetualData = [
     tutorialLink: "",
   },
   {
-    projectName: "aevo",
+    projectName: "aevo(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Aevo?k=MzAwOQ%3D%3D",
     financingBackground: "2022-03-22 B轮875w\nparadigm/dragonfly/coinbase投资",
     twitterLink: "https://twitter.com/aevoxyz",
