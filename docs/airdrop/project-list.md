@@ -55,6 +55,13 @@ export const Table = ({ data }) => { // 使用解构赋值来接受参数对象 
 
 export const L1data = [
   {
+    projectName: "Gevulot",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Gevulot?k=OTM3OQ%3D%3D",
+    financingBackground: "2024-01-29 种子轮600w",
+    twitterLink: "https://twitter.com/gevulot_network",
+    tutorialLink: "",
+  },
+  {
     projectName: "DarkFi",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/DarkFi?k=MjgwNw%3D%3D",
     financingBackground: "隐私L1\nalameda research投了",
@@ -113,7 +120,7 @@ export const L2data = [
     {
     projectName: "manta(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Manta%20Network?k=NjY2",
-    financingBackground: "2021-02-02 110w\n2021-10-20 550w\n2022-02-17 战略融资，金额未披露\n2023-07-19 2500wA轮",
+    financingBackground: "2021-02-02 110w\n2021-10-20 550w\n2022-02-17 战略融资，金额未披露\n2023-07-19 A轮2500w",
     twitterLink: "https://twitter.com/mantanetwork",
     tutorialLink: "",
   },
@@ -538,7 +545,7 @@ export const BinanceLabsIncubationSeason6Data = [
     tutorialLink: "",
   },
   {
-    projectName: "QnA3.A",
+    projectName: "QnA3.A(已发币)",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/QnA3.AI?k=ODY5MQ%3D%3D",
     financingBackground: "",
     twitterLink: "https://twitter.com/qnaweb3",
