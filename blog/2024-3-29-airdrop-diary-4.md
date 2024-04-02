@@ -41,3 +41,31 @@ https://liquidswap.com/#/
 2、3、4都是APTOS生态项目，目前都没有融资，不一定会发币，不一定都要刷，只是跨到APTOS顺带刷一刷
 
 整体成本比较低，L0刷了1wu，aptos生态项目没有刷量，损耗4U左右
+
+---
+
+3月31日更新
+
+目前aptosbridge的情况是
+
+1. e跨到aptos之后跨回没流动性，所以不能跨e
+
+2. L0跨的是usdce，交易所提出来的一般是usdc，如果去uni用usdc换usdce会有磨损，并且交易所提u要0.8u比较贵
+
+3. usdt有bsc、avax、polygon可以走，但ok不支持bsc的usdt充值，polygon跨链要十几分钟，avax跨链比较快，并且交易所提u要0.8u比较贵
+
+基于以上困难，聪明的群友运用智慧给出了针对性的解决方案👇
+
+假设你有很多matic，你可以去aave质押matic借U，借USDT还是USDCe看利率，哪个利率低借哪个
+
+例如目前马蹄上的USDT利率更低，那就借USDT
+
+![aptosbridge](/img/blog/airdrop-diary-4/1.png)
+
+其他链的思路也是一样，质押avax或ETH借U就行
+
+这个方法唯一的缺点就是U的利率会比交易所高几个点
+
+优点就是不仅能借到能跨链的U，而且也不需要浪费提币费
+
+如果你一笔tx的交易额在两三千U以下，那么用这个方法刷aptosbridge是很舒服的

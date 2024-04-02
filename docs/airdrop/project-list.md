@@ -71,7 +71,7 @@ export const L1data = [
   {
     projectName: "burnt",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Burnt?k=MjYyMg%3D%3D",
-    financingBackground: "2021-05-06 种子轮300w 做NFT拍卖协议Burnt Finance\n2022-01-17 A轮800w\n2023-03-22 更名为Burnt\n2023-10-06 获得Circle Ventures战略投资，金额未披露",
+    financingBackground: "2021-05-06 种子轮300w 做NFT拍卖协议Burnt Finance\n2022-01-17 A轮800w\n2023-03-22 更名为Burnt\n2023-10-06 获得Circle Ventures战略投资，金额未披露\n2024-04-01 A轮2500w",
     twitterLink: "https://twitter.com/burnt_xion",
     tutorialLink: "",
   },
