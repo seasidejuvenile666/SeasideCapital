@@ -90,13 +90,6 @@ export const L2data = [
     tutorialLink: "",
   },
   {
-    projectName: "starknet(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/StarkNet?k=Mjc1MQ%3D%3D",
-    financingBackground: "2018-05 种子轮600w\n2018-07 以太坊基金会投了1200万\n2018-10 A轮3000w\n2021-03 B轮7500w\n2021-11 C轮5000万\n2022-05 D轮1亿\n2022-07 Alameda Research投了950万\n合计2.825亿",
-    twitterLink: "https://twitter.com/Starknet",
-    tutorialLink: "",
-  },
-  {
     projectName: "scroll",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Scroll?k=Mjc0Mw%3D%3D",
     financingBackground: "2022-04-21 A轮3000w\n2023-03-06 第二轮5000w\n合计0.8亿",
@@ -118,13 +111,6 @@ export const L2data = [
     tutorialLink: "",
   },
     {
-    projectName: "manta(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/Manta%20Network?k=NjY2",
-    financingBackground: "2021-02-02 110w\n2021-10-20 550w\n2022-02-17 战略融资，金额未披露\n2023-07-19 A轮2500w",
-    twitterLink: "https://twitter.com/mantanetwork",
-    tutorialLink: "",
-  },
-    {
     projectName: "Taiko",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Taiko?k=NjI5OQ%3D%3D",
     financingBackground: "2022-09-01 1000w种子轮\n2023-06-08 1200wPre-A轮",
@@ -136,6 +122,20 @@ export const L2data = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/zkLink?k=Mjc0MQ%3D%3D",
     financingBackground: "2021-10-23 850w\n2023-5-4 1000w",
     twitterLink: "https://twitter.com/zkLink_Official",
+    tutorialLink: "",
+  },
+  {
+    projectName: "starknet(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/StarkNet?k=Mjc1MQ%3D%3D",
+    financingBackground: "2018-05 种子轮600w\n2018-07 以太坊基金会投了1200万\n2018-10 A轮3000w\n2021-03 B轮7500w\n2021-11 C轮5000万\n2022-05 D轮1亿\n2022-07 Alameda Research投了950万\n合计2.825亿",
+    twitterLink: "https://twitter.com/Starknet",
+    tutorialLink: "",
+  },
+  {
+    projectName: "manta(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Manta%20Network?k=NjY2",
+    financingBackground: "2021-02-02 110w\n2021-10-20 550w\n2022-02-17 战略融资，金额未披露\n2023-07-19 A轮2500w",
+    twitterLink: "https://twitter.com/mantanetwork",
     tutorialLink: "",
   },
 ];
@@ -258,13 +258,6 @@ export const onchainPerpetualData = [
     tutorialLink: "",
   },
   {
-    projectName: "aevo(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/Aevo?k=MzAwOQ%3D%3D",
-    financingBackground: "2022-03-22 B轮875w\nparadigm/dragonfly/coinbase投资",
-    twitterLink: "https://twitter.com/aevoxyz",
-    tutorialLink: "",
-  },
-  {
     projectName: "GRVT",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/GRVT?k=NzY4Mg%3D%3D",
     financingBackground: "2022-10-1 pre种子轮210w\n2023-9-11 种子轮500w",
@@ -276,13 +269,6 @@ export const onchainPerpetualData = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Paradex?k=ODY2NA%3D%3D",
     financingBackground: "paradigm孵化（不是机构paradigm，一个token场外大宗交易平台）",
     twitterLink: "https://twitter.com/tradeparadex",
-    tutorialLink: "",
-  },
-  {
-    projectName: "ZKX（已发币）",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/ZKX?k=MzAzMA%3D%3D",
-    financingBackground: "2022-7-14 种子轮450w",
-    twitterLink: "https://twitter.com/zkxprotocol",
     tutorialLink: "",
   },
   {
@@ -334,6 +320,20 @@ export const onchainPerpetualData = [
     twitterLink: "https://twitter.com/primex_official",
     tutorialLink: "",
   },
+  {
+    projectName: "aevo(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Aevo?k=MzAwOQ%3D%3D",
+    financingBackground: "2022-03-22 B轮875w\nparadigm/dragonfly/coinbase投资",
+    twitterLink: "https://twitter.com/aevoxyz",
+    tutorialLink: "",
+  },
+  {
+    projectName: "ZKX(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/ZKX?k=MzAzMA%3D%3D",
+    financingBackground: "2022-7-14 种子轮450w",
+    twitterLink: "https://twitter.com/zkxprotocol",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={onchainPerpetualData} />
@@ -341,13 +341,6 @@ export const onchainPerpetualData = [
 ## Raas
 
 export const raasData = [
-  {
-    projectName: "Altlayer(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
-    financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
-    twitterLink: "https://twitter.com/alt_layer",
-    tutorialLink: "",
-  },
   {
     projectName: "Lumoz",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Lumoz?k=NTkxMQ%3D%3D",
@@ -362,6 +355,13 @@ export const raasData = [
     twitterLink: "https://twitter.com/conduitxyz",
     tutorialLink: "",
   },
+  {
+    projectName: "Altlayer(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
+    financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
+    twitterLink: "https://twitter.com/alt_layer",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={raasData} />
@@ -369,13 +369,6 @@ export const raasData = [
 ## 模块化区块链
 
 export const moduleData = [
-  {
-    projectName: "celestia(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/Celestia?k=MTk4NA%3D%3D",
-    financingBackground: "2021-3-4 种子轮150w\n2022-10-20 5500w",
-    twitterLink: "https://twitter.com/CelestiaOrg",
-    tutorialLink: "",
-  },
   {
     projectName: "Astria",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Astria?k=NzUyMA%3D%3D",
@@ -419,13 +412,6 @@ export const moduleData = [
     tutorialLink: "",
   },
   {
-    projectName: "dymension(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/dYmension?k=MjA5Nw%3D%3D",
-    financingBackground: "2023-2-9 种子轮670w",
-    twitterLink: "https://twitter.com/dymension",
-    tutorialLink: "",
-  },
-  {
     projectName: "Nautilus Chain",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Nautilus%20Chain?k=NzQ3OA%3D%3D",
     financingBackground: "前身是 Zebec Chain",
@@ -451,6 +437,20 @@ export const moduleData = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Movement%20Labs?k=OTMxMg%3D%3D",
     financingBackground: "2023-9-13 pre种子轮340w",
     twitterLink: "https://twitter.com/movementlabsxyz",
+    tutorialLink: "",
+  },
+  {
+    projectName: "celestia(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Celestia?k=MTk4NA%3D%3D",
+    financingBackground: "2021-3-4 种子轮150w\n2022-10-20 5500w",
+    twitterLink: "https://twitter.com/CelestiaOrg",
+    tutorialLink: "",
+  },
+  {
+    projectName: "dymension(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/dYmension?k=MjA5Nw%3D%3D",
+    financingBackground: "2023-2-9 种子轮670w",
+    twitterLink: "https://twitter.com/dymension",
     tutorialLink: "",
   },
 ];
@@ -538,20 +538,6 @@ export const BinanceLabsIncubationSeason6Data = [
     tutorialLink: "",
   },
   {
-    projectName: "NFP(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/NFPrompt?k=Nzk5Mw%3D%3D",
-    financingBackground: "2023-06-07 种子轮金额未披露\nbinance labs投资",
-    twitterLink: "https://twitter.com/nfprompt",
-    tutorialLink: "",
-  },
-  {
-    projectName: "QnA3.A(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/QnA3.AI?k=ODY5MQ%3D%3D",
-    financingBackground: "",
-    twitterLink: "https://twitter.com/qnaweb3",
-    tutorialLink: "",
-  },
-  {
     projectName: "Cellula",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Cellula?k=OTUwMw%3D%3D",
     financingBackground: "",
@@ -572,6 +558,20 @@ export const BinanceLabsIncubationSeason6Data = [
     twitterLink: "https://twitter.com/MetaCeneGame",
     tutorialLink: "",
   },
+  {
+    projectName: "NFP(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/NFPrompt?k=Nzk5Mw%3D%3D",
+    financingBackground: "2023-06-07 种子轮金额未披露\nbinance labs投资",
+    twitterLink: "https://twitter.com/nfprompt",
+    tutorialLink: "",
+  },
+  {
+    projectName: "QnA3.A(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/QnA3.AI?k=ODY5MQ%3D%3D",
+    financingBackground: "",
+    twitterLink: "https://twitter.com/qnaweb3",
+    tutorialLink: "",
+  },
 ];
 
 <Table data={BinanceLabsIncubationSeason6Data} />
@@ -579,13 +579,6 @@ export const BinanceLabsIncubationSeason6Data = [
 ## Binance Lab MVB VI
 
 export const BinanceLabMVBVIData = [
-  {
-    projectName: "Altlayer(已发币)",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
-    financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
-    twitterLink: "https://twitter.com/alt_layer",
-    tutorialLink: "",
-  },
   {
     projectName: "KiloEx",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/KiloEx?k=NzY1Mg%3D%3D",
@@ -605,6 +598,13 @@ export const BinanceLabMVBVIData = [
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Sleepless%20AI?k=NzY1NA%3D%3D",
     financingBackground: "",
     twitterLink: "https://twitter.com/sleeplessai_lab",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Altlayer(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/AltLayer?k=MjczNg%3D%3D",
+    financingBackground: "2022-7-1 种子轮720w\n入选币安实验室最有价值建设者 (MVB) 计划第六季中的四个表现最佳的项目",
+    twitterLink: "https://twitter.com/alt_layer",
     tutorialLink: "",
   },
 ];
