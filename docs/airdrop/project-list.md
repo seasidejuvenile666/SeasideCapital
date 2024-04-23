@@ -190,7 +190,7 @@ export const solanadata = [
   {
     projectName: "Phoenix",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Phoenix?k=ODQ0OQ%3D%3D",
-    financingBackground: "2023-08-18 种子轮330w",
+    financingBackground: "2023-08-18 种子轮330w\n2024-04-04 A轮2000w",
     twitterLink: "https://twitter.com/PhoenixTrade",
     tutorialLink: "",
   },
