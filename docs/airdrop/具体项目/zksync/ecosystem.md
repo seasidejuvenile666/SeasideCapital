@@ -119,11 +119,6 @@ export const lendingdata = [
     projectName: "eralend",
     twitterLink: "https://twitter.com/Era_Lend",
     websiteLink: "https://app.eralend.com/",
-  },
-  {
-    projectName: "xBank Finance",
-    twitterLink: "https://twitter.com/xBankFinance",
-    websiteLink: "https://app.xbank.finance/",
   }
 ];
 
