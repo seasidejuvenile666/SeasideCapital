@@ -4,13 +4,6 @@ sidebar_position: 1
 
 # 暴富导航
 
-## 交易大所[最高省55%手续费]
-
-- 币安：第一大所，大资金优先
-- OKX：第二大所，撸毛必备
-- [Bitget](https://partner.bitget.com/bg/P3HS0F)：上币快如抹茶，严如币安
-- 合约市场数据：[coinglass](https://www.coinglass.com/zh)
-
 ## defi
 
 - 代币市值、流通：[CMC](https://coinmarketcap.com/)、[coingecko](https://www.coingecko.com/)
