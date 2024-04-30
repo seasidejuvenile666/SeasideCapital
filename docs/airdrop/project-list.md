@@ -146,13 +146,6 @@ export const L2data = [
 
 export const LSDdata = [
   {
-    projectName: "EigenLayer",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/EigenLayer?k=Mjk4MA%3D%3D",
-    financingBackground: "2022-08-01 种子轮1450w\n2023-03-28 A轮5000w\n2024-02-22 B轮1亿",
-    twitterLink: "https://twitter.com/eigenlayer",
-    tutorialLink: "",
-  },
-    {
     projectName: "Swell Network",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Swell%20Network?k=Mjk3Nw%3D%3D",
     financingBackground: "2022-03-14 种子轮375W",
@@ -160,17 +153,24 @@ export const LSDdata = [
     tutorialLink: "",
   },
   {
-    projectName: "Renzo Protocol",
-    financingLink: "https://www.rootdata.com/zh/Projects/detail/Renzo%20Protocol?k=OTk0NA%3D%3D",
-    financingBackground: "2024-01-15 种子轮320W",
-    twitterLink: "https://twitter.com/RenzoProtocol",
-    tutorialLink: "",
-  },
-  {
     projectName: "Puffer Finance",
     financingLink: "https://www.rootdata.com/zh/Projects/detail/Puffer%20Finance?k=NzkwNA%3D%3D",
     financingBackground: "2022-06-01 Pre种子轮65W\n2023-08-08 种子轮550W\n2024-01-30 Binance Labs战略融资\n2024-04-16 A轮1800w 估值2亿",
     twitterLink: "https://twitter.com/puffer_finance",
+    tutorialLink: "",
+  },
+  {
+    projectName: "EigenLayer(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/EigenLayer?k=Mjk4MA%3D%3D",
+    financingBackground: "2022-08-01 种子轮1450w\n2023-03-28 A轮5000w\n2024-02-22 B轮1亿",
+    twitterLink: "https://twitter.com/eigenlayer",
+    tutorialLink: "",
+  },
+  {
+    projectName: "Renzo Protocol(已发币)",
+    financingLink: "https://www.rootdata.com/zh/Projects/detail/Renzo%20Protocol?k=OTk0NA%3D%3D",
+    financingBackground: "2024-01-15 种子轮320W",
+    twitterLink: "https://twitter.com/RenzoProtocol",
     tutorialLink: "",
   },
     {
